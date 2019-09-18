@@ -1,0 +1,40 @@
+DEBUG:root:published
+DEBUG:root:{"temperature": "11", "humidity": "27"}
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2019 16:03:30] "GET /api/v1/sensors HTTP/1.1" 200 -
+DEBUG:root:published
+DEBUG:root:{"temperature": "19", "humidity": "12"}
+DEBUG:root:published
+DEBUG:root:{"temperature": "15", "humidity": "11"}
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2019 16:04:04] "POST /api/v1/sensors/ptcDevice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2019 16:05:05] "GET /api/v1/sensors HTTP/1.1" 200 -
+DEBUG:root:published
+DEBUG:root:{"temperature": "15", "humidity": "20"}
+DEBUG:root:published
+DEBUG:root:{"temperature": "28", "humidity": "30"}
+DEBUG:root:published
+DEBUG:root:{"temperature": "22", "humidity": "22"}
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2019 16:05:53] "POST /api/v1/sensors/ptcDevice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2019 16:07:32] "GET /api/v1/sensors HTTP/1.1" 200 -
+DEBUG:root:published
+DEBUG:root:{"temperature": "10", "humidity": "11"}
+DEBUG:root:published
+DEBUG:root:{"temperature": "11", "humidity": "10"}
+DEBUG:root:published
+DEBUG:root:{"temperature": "28", "humidity": "27"}
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2019 17:35:09] "POST /api/v1/sensors/ptcDevice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2019 17:35:49] "GET /api/v1/sensors HTTP/1.1" 200 -
+DEBUG:root:published
+DEBUG:root:{"temperature": "18", "humidity": "13"}
+DEBUG:root:published
+DEBUG:root:{"temperature": "16", "humidity": "18"}
+DEBUG:root:published
+DEBUG:root:{"temperature": "20", "humidity": "21"}
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2019 17:37:22] "POST /api/v1/sensors/ptcDevice HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\disha.shrivastava\\POC\\IoT_TestSuiteAPI-master\\simulation\\thingworxSim.py', reloading
+2019-09-17 17:38:16,298:DEBUG:published
+2019-09-17 17:38:16,298:DEBUG:{"temperature": "25", "humidity": "19"}
+2019-09-17 17:38:30,572:DEBUG:published
+2019-09-17 17:38:30,573:DEBUG:{"temperature": "28", "humidity": "14"}
+2019-09-17 17:38:44,853:DEBUG:published
+2019-09-17 17:38:44,853:DEBUG:{"temperature": "10", "humidity": "15"}
+2019-09-17 17:38:58,981:INFO:127.0.0.1 - - [17/Sep/2019 17:38:58] "POST /api/v1/sensors/ptcDevice HTTP/1.1" 200 -
